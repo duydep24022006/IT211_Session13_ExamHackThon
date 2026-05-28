@@ -1,0 +1,151 @@
+[2026-05-28 07:29:22]
+                [INFO]
+                [org.hibernate.validator.internal.util.Version]
+                - HV000001: Hibernate Validator 8.0.2.Final
+[2026-05-28 07:29:23]
+                [INFO]
+                [com.example.library.It211Session13ExamHackThonApplication]
+                - Starting It211Session13ExamHackThonApplication using Java 17.0.16 with PID 24620 (D:\Rikkei_education\CNTT4_IT211_JavaService\CNTT4_IT211_JavaService_Session12\IT211_Session13_ExamHackThon\build\classes\java\main started by Acer in D:\Rikkei_education\CNTT4_IT211_JavaService\CNTT4_IT211_JavaService_Session12\IT211_Session13_ExamHackThon)
+[2026-05-28 07:29:23]
+                [DEBUG]
+                [com.example.library.It211Session13ExamHackThonApplication]
+                - Running with Spring Boot v3.5.0, Spring v6.2.7
+[2026-05-28 07:29:23]
+                [INFO]
+                [com.example.library.It211Session13ExamHackThonApplication]
+                - No active profile set, falling back to 1 default profile: "default"
+[2026-05-28 07:29:26]
+                [INFO]
+                [org.apache.coyote.http11.Http11NioProtocol]
+                - Initializing ProtocolHandler ["http-nio-8080"]
+[2026-05-28 07:29:26]
+                [INFO]
+                [org.apache.catalina.core.StandardService]
+                - Starting service [Tomcat]
+[2026-05-28 07:29:26]
+                [INFO]
+                [org.apache.catalina.core.StandardEngine]
+                - Starting Servlet engine: [Apache Tomcat/10.1.41]
+[2026-05-28 07:29:26]
+                [INFO]
+                [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]]
+                - Initializing Spring embedded WebApplicationContext
+[2026-05-28 07:29:26]
+                [INFO]
+                [org.hibernate.jpa.internal.util.LogHelper]
+                - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2026-05-28 07:29:27]
+                [INFO]
+                [org.hibernate.Version]
+                - HHH000412: Hibernate ORM core version 6.6.15.Final
+[2026-05-28 07:29:27]
+                [INFO]
+                [org.hibernate.cache.internal.RegionFactoryInitiator]
+                - HHH000026: Second-level cache disabled
+[2026-05-28 07:29:27]
+                [INFO]
+                [com.zaxxer.hikari.HikariDataSource]
+                - HikariPool-1 - Starting...
+[2026-05-28 07:29:28]
+                [INFO]
+                [com.zaxxer.hikari.pool.HikariPool]
+                - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e9ce19b
+[2026-05-28 07:29:28]
+                [INFO]
+                [com.zaxxer.hikari.HikariDataSource]
+                - HikariPool-1 - Start completed.
+[2026-05-28 07:29:28]
+                [WARN]
+                [org.hibernate.orm.deprecation]
+                - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[2026-05-28 07:29:28]
+                [INFO]
+                [org.hibernate.orm.connections.pooling]
+                - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2026-05-28 07:29:29]
+                [INFO]
+                [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator]
+                - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2026-05-28 07:29:30]
+                [WARN]
+                [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration]
+                - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2026-05-28 07:29:30]
+                [INFO]
+                [org.apache.coyote.http11.Http11NioProtocol]
+                - Starting ProtocolHandler ["http-nio-8080"]
+[2026-05-28 07:29:30]
+                [INFO]
+                [com.example.library.It211Session13ExamHackThonApplication]
+                - Started It211Session13ExamHackThonApplication in 8.995 seconds (process running for 10.094)
+[2026-05-28 07:32:03]
+                [INFO]
+                [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]]
+                - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2026-05-28 07:32:03]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - Before method: getAllBooks args: []
+[2026-05-28 07:32:03]
+                [DEBUG]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Get all books
+[2026-05-28 07:32:03]
+                [INFO]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Found 10 books
+[2026-05-28 07:32:03]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - After method: getAllBooks result: [Book(id=1, title=Java Core, author=Nguyen Van A, category=Programming, quantity=10), Book(id=2, title=Spring Boot, author=Tran Van B, category=Backend, quantity=15), Book(id=3, title=Clean Code, author=Robert C. Martin, category=Software Engineering, quantity=8), Book(id=4, title=Database Design, author=Le Thi C, category=Database, quantity=20), Book(id=5, title=ReactJS Basic, author=Pham Van D, category=Frontend, quantity=12), Book(id=6, title=Microservices Architecture, author=Nguyen Van E, category=System Design, quantity=5), Book(id=7, title=Python for Beginners, author=Tran Thi F, category=Programming, quantity=18), Book(id=8, title=Docker & Kubernetes, author=Hoang Van G, category=DevOps, quantity=7), Book(id=9, title=Data Structures, author=Nguyen Van H, category=Algorithm, quantity=25), Book(id=10, title=Machine Learning Intro, author=Le Van I, category=AI, quantity=6)]
+[2026-05-28 07:32:11]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - Before method: getBookById args: [1]
+[2026-05-28 07:32:11]
+                [DEBUG]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Get book by id 1
+[2026-05-28 07:32:11]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - After method: getBookById result: Book(id=1, title=Java Core, author=Nguyen Van A, category=Programming, quantity=10)
+[2026-05-28 07:34:04]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - Before method: createBook args: [Book(id=null, title=null, author=null, category=null, quantity=null)]
+[2026-05-28 07:34:04]
+                [DEBUG]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Create book Book(id=null, title=null, author=null, category=null, quantity=null)
+[2026-05-28 07:34:04]
+                [INFO]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Book created successfully
+[2026-05-28 07:34:04]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - After method: createBook result: Book(id=11, title=null, author=null, category=null, quantity=null)
+[2026-05-28 07:34:50]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - Before method: createBook args: [Book(id=null, title=Hibernate Advanced, author=Nguyen Van Z, category=Backend, quantity=30)]
+[2026-05-28 07:34:50]
+                [DEBUG]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Create book Book(id=null, title=Hibernate Advanced, author=Nguyen Van Z, category=Backend, quantity=30)
+[2026-05-28 07:34:50]
+                [INFO]
+                [com.example.library.service.impl.BookServiceImpl]
+                - Book created successfully
+[2026-05-28 07:34:50]
+                [INFO]
+                [com.example.library.aspect.BookServiceAspect]
+                - After method: createBook result: Book(id=12, title=Hibernate Advanced, author=Nguyen Van Z, category=Backend, quantity=30)
